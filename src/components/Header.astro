@@ -20,16 +20,16 @@ allPosts.map(post => {
       <a href="/" class="group">
         <h2 class="font-semibold tracking-tighter p-2 font-mplus text-lg">
           <FootprintIcon />
-          Takuya Matsuyama
+          Biking Bandits
         </h2>
       </a>
-      <div class="items-center gap-6 hidden md:flex">
+      <!-- <div class="items-center gap-6 hidden md:flex">
         <HeaderLink href={HOMEPAGE_URL}>About</HeaderLink>
         <HeaderLink
           href="https://github.com/craftzdog/craftzdog-uses"
           target="_blank"><IoLogoGithub />Source</HeaderLink
         >
-      </div>
+      </div> -->
       <div class="flex-1"></div>
       <ThemeToggle client:visible />
       <DropdownMenu client:visible tags={Array.from(allTags)} />
